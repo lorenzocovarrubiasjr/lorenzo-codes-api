@@ -1,0 +1,5 @@
+class AddLogoUrlToWorkHistories < ActiveRecord::Migration[8.0]
+  def change
+    add_column :work_histories, :logoUrl, :string
+  end
+end
