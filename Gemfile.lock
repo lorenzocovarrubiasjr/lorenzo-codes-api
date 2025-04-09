@@ -297,6 +297,9 @@ DEPENDENCIES
   puma (>= 5.0)
   rack-cors
   rails (~> 8.0.2)
+  rubocop
+  rubocop-performance
+  rubocop-rails
   rubocop-rails-omakase
   thruster
   tzinfo-data
