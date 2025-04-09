@@ -35,15 +35,23 @@ gem "thruster", require: false
 gem "rack-cors"
 
 group :development, :test do
-  # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
-  gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
-
-  # Static analysis for security vulnerabilities [https://brakemanscanner.org/]
-  gem "brakeman", require: false
-
-  # Omakase Ruby styling [https://github.com/rails/rubocop-rails-omakase/]
-  gem "rubocop-rails-omakase", require: false
+  gem "debug"
+  gem "brakeman"
   gem "rubocop"
   gem "rubocop-rails"
   gem "rubocop-performance"
+  gem "rubocop-rails-omakase"
+  gem "json"
+  gem "language_server-protocol"
+  gem "lint_roller"
+  gem "parallel"
+  gem "parser"
+  gem "rainbow"
+  gem "regexp_parser"
+  gem "rubocop-ast"
+  gem "ruby-progressbar"
+  gem "unicode-display_width"
+  gem "ast"
+  gem "prism"
+  gem "unicode-emoji"
 end
